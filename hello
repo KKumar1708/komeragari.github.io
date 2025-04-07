@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+        .item {
+            background: white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .item img {
+            width: 100%;
+            height: auto;
+            border-radius: 3px;
+        }
+        .item h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .about {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Creative Portfolio</h1>
+        <p>Welcome to my collection of creative works</p>
+    </header>
+    
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a creative professional passionate about [your creative field]. This website showcases my portfolio of work including [types of work you create].</p>
+            <p>Feel free to browse through my projects and contact me if you're interested in collaborations or have any questions.</p>
+            <p>Email: your.email@example.com</p>
+        </section>
+        
+        <h2>My Work</h2>
+        <div class="gallery">
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Description of your first creative project. Explain your process, inspiration, and techniques used.</p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Description of your second creative project. Explain your process, inspiration, and techniques used.</p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project Title 3</h3>
+                <p>Description of your third creative project. Explain your process, inspiration, and techniques used.</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright &copy; 2025 My Creative Portfolio</p>
+    </footer>
+</body>
+</html>
